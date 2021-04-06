@@ -18,5 +18,10 @@ namespace Mathematics
             X = pointX;
             Y = pointY;
         }
+
+        public void DisplayInfo()
+        {
+            Console.WriteLine($"Точка {Name} имеет координаты: {X} по оси X и {Y} по оси Y");
+        }
     }
 }
