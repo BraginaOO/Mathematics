@@ -1,32 +1,29 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Mathematics
 {
     public class Polygon
     {
-        public static string type;
-        public List<Point> points;
+        public static string Type;
+        public List<Point> Points;
 
         public Polygon (Point a, Point b, Point c)
         {
-            type = "треугольник";
-            points = new List<Point>() { a, b, c };
+            Type = "треугольник";
+            Points = new List<Point>() { a, b, c };
         }
 
         public Polygon(Point a, Point b, Point c, Point d)
         {
-            type = "четырехугольник";
-            points = new List<Point>() { a, b, c, d };
+            Type = "четырехугольник";
+            Points = new List<Point>() { a, b, c, d };
         }
 
         public Polygon(Point a, Point b, Point c, Point d, Point e)
         {
-            type = "пятиугольник";
-            points = new List<Point>() { a, b, c, d, e };
+            Type = "пятиугольник";
+            Points = new List<Point>() { a, b, c, d, e };
         }
 
         public int Perimeter()
@@ -34,11 +31,11 @@ namespace Mathematics
             try
             {
                 int perimeter = 0;
-                for (int i = 0; i < points.Count - 1; i++)
+                for (int i = 0; i < Points.Count - 1; i++)
                 {
-                    perimeter += LineLength(points[i], points[i + 1]);
+                    perimeter += LineLength(Points[i], Points[i + 1]);
                 }
-                perimeter += LineLength(points[^1], points[0]);
+                perimeter += LineLength(Points[^1], Points[0]);
 
                 return perimeter;
             }
@@ -66,8 +63,8 @@ namespace Mathematics
 
         public void DisplayInfo()
         {
-            Console.WriteLine($"Многоугольник типа {type} состоит из следующих точек: ");
-            foreach (var point in points)
+            Console.WriteLine($"Многоугольник типа {Type} состоит из следующих точек: ");
+            foreach (var point in Points)
             {
                 Console.WriteLine($"Точка {point.Name} c координатами ({point.X},{point.Y})");
             }
