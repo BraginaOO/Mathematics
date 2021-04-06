@@ -5,7 +5,7 @@ namespace Mathematics
 {
     public class Polygon
     {
-        public static string Type;
+        public string Type = "многоугольник";
         public List<Point> Points;
 
         public Polygon (Point a, Point b, Point c)
