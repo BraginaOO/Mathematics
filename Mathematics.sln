@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31112.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mathematics", "Mathematics\Mathematics.csproj", "{B846F3BF-C2EB-43A6-8420-2DD2A962ADE2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mathematics2D", "Mathematics\Mathematics2D.csproj", "{B846F3BF-C2EB-43A6-8420-2DD2A962ADE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mathematics3D", "Mathematics3\Mathematics3D.csproj", "{FF1DD006-45BA-423D-A448-AAE90A9291CD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{B846F3BF-C2EB-43A6-8420-2DD2A962ADE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B846F3BF-C2EB-43A6-8420-2DD2A962ADE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B846F3BF-C2EB-43A6-8420-2DD2A962ADE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF1DD006-45BA-423D-A448-AAE90A9291CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF1DD006-45BA-423D-A448-AAE90A9291CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF1DD006-45BA-423D-A448-AAE90A9291CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF1DD006-45BA-423D-A448-AAE90A9291CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

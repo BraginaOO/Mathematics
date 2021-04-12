@@ -1,10 +1,10 @@
 ﻿using System;
 
-namespace Mathematics
+namespace Mathematics2D
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             Console.WriteLine("Демонстрация работы программы Расчет периметра многоугольника:");
             //создание точек и вывод информации о них

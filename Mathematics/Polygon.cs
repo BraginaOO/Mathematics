@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Mathematics
+namespace Mathematics2D
 {
     public class Polygon
     {

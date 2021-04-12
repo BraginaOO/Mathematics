@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Mathematics
+namespace Mathematics2D
 {
     public class Vector
     {
